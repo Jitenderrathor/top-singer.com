@@ -1,0 +1,346 @@
+.clear {
+    clear: both;
+}
+
+body {
+    background-size: cover;
+    font-family: sans-serif;
+    background-image: url(../image/bg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* ====================== Font Name  ======================*/
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../Font/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../Font/Comfortaa/Comfortaa-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src: url(../Font/Baloo_Tammudu_2/BalooTammudu2-Medium.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Comfortaa';
+}
+
+h2 {
+    font-size: 1.4em;
+    font-family: 'Comfortaa';
+}
+
+h3 {
+    font-family: 'Comfortaa';
+}
+
+p {
+    font-family: 'Baloo';
+}
+
+img {
+    width: 100%;
+}
+
+.ancher {
+    width: 50%;
+    color: #bedadd;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+/* ====================== Container Start ====================== */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* ====================== Header Start ====================== */
+
+.header {
+    width: 704.89px;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+/* ====================== Logo In Header Start ====================== */
+
+.header .logo {
+    float: left;
+}
+
+.header .logo img {
+    width: 50px;
+    float: left;
+}
+
+.header .logo h1 {
+    font-family: 'Pacifico';
+    float: left;
+    color: #4c8097;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 12.65px;
+}
+
+
+/* ====================== Nav In Header Start ====================== */
+
+.header .nav {
+    float: right;
+    margin-top: 15.65px;
+}
+
+.header .nav ul li {
+    padding: 5px;
+    margin-left: 15px;
+    float: left;
+    transition: all 1s ease 0s;
+}
+
+.header .nav ul li:hover {
+    margin-top: 10px;
+    background-color: #0b1557;
+}
+
+.header .nav ul li a {
+    font-family: 'Comfortaa';
+    color: #4c8097;
+    font-size: 1.1em;
+}
+
+
+/* ============================ Social Section ============================ */
+
+.social {
+    width: 100%;
+    margin: 70px 0 20px 0;
+}
+
+.social .socialicon {
+    width: 25px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 25px;
+    float: right;
+    transition: all 1s;
+}
+
+.social .socialicon:hover {
+    width: 120px;
+}
+
+.social .socialicon img {
+    float: left;
+    width: 25px;
+}
+
+.social .socialicon h3 {
+    float: left;
+    padding: 5px;
+    color: #4c8097;
+}
+
+
+/* ====================== Heading Start ====================== */
+
+.heading {
+    margin: 50px;
+}
+
+.heading h1 {
+    color: #bedadd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.heading .image {
+    width: 40%;
+    float: left;
+}
+
+.heading .about {
+    width: calc(60% - 40px);
+    float: left;
+    padding: 5px 20px;
+}
+
+.heading .about h2 {
+    color: #bedadd;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.heading .about p {
+    text-align: justify;
+    padding: 10px;
+    color: #4e9999;
+    line-height: 1.4em;
+}
+
+
+/* ====================== Mainbody Start ====================== */
+
+
+/* ====================== category Start ====================== */
+
+.category {
+    width: calc(25% - 5px);
+    float: left;
+}
+
+.category h2 {
+    color: #bedadd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.category ul li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(64, 116, 130, 255);
+}
+
+.category ul li ol li {
+    transition: all .2s linear 0s;
+}
+
+.category ul li ol li:hover {
+    padding: 10px;
+}
+
+.category ul li .list {
+    padding: 5px;
+    /* border-bottom: .2px solid #4551a4; */
+}
+
+.category ul li,
+a {
+    color: #4c8097;
+}
+
+
+/* ====================== Main Start ====================== */
+
+.main {
+    width: 75%;
+    float: right;
+}
+
+
+/* ====================== Singer Start ====================== */
+
+.main .singer {
+    width: 100%;
+    float: right;
+    border-radius: 30px;
+    transition: all .3s linear 0s;
+}
+
+.main .singer:hover {
+    box-shadow: 5px 5px 10px #0b1557;
+}
+
+.main .singer a h2 {
+    color: #bedadd;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+/* ====================== Singer Photo Start ====================== */
+
+.main .singer .name .photo {
+    width: calc(30% - 20px);
+    padding: 10px;
+    float: left;
+}
+
+
+/* ====================== Singer About Start ====================== */
+
+.main .singer .name h2 {
+    clear: both;
+    color: #bedadd;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.main .singer .name .about {
+    width: calc(70% - 20px);
+    padding: 10px;
+    float: left;
+}
+
+.main .singer .name .about h3 {
+    color: #bedadd;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.main .singer .name .about p {
+    text-align: justify;
+    padding: 10px;
+    color: #4e9999;
+    line-height: 1.4em;
+}
+
+
+/* ====================== Song Start ====================== */
+
+.main .singer .name .song {
+    width: calc(100% - 4px);
+    padding: 2px;
+}
+
+.main .singer .name .song .top {
+    width: calc(100% - 4px);
+    padding: 2px;
+    float: left;
+}
+
+.main .singer .name .song .top iframe {
+    width: 100%
+}
+
+
+/* ====================== footer Start ====================== */
+
+.footer {
+    margin-top: 100px;
+}
+
+
+/* ============================ Copyright In Footer Section ============================ */
+
+.copyright {
+    width: calc(100% - 34px);
+    color: #4c8097;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #4c8097;
+}
